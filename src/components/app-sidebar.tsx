@@ -108,8 +108,8 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter>
-        <SidebarMenuButton asChild>
-          <a href='https://github.com/yuhsak/share-screens' target='_blank' className='w-fit'>
+        <SidebarMenuButton asChild className='w-fit'>
+          <a href='https://github.com/yuhsak/share-screens' target='_blank'>
             <GitHub />
           </a>
         </SidebarMenuButton>
