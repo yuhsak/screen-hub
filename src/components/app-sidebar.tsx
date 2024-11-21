@@ -33,8 +33,30 @@ export function AppSidebar() {
               tooltip={'Toggle sidebar'}
               onClick={isOpen ? void 0 : sidebar.toggleSidebar}
             >
-              {isOpen ? <PictureInPicture2 /> : <PanelLeft />}
-              <h1 className='font-semibold shrink-0'>Share Screens</h1>
+              {isOpen ? (
+                <PictureInPicture2 style={{ stroke: 'url(#icon-gradient)' }} />
+              ) : (
+                <PanelLeft />
+              )}
+              <h1
+                className='font-semibold shrink-0'
+                // style={{
+                //   background: '-webkit-linear-gradient(135deg, #ffcc70, #c850c0, #4158d0)',
+                //   backgroundClip: 'text',
+                //   WebkitTextFillColor: 'transparent',
+                // }}
+              >
+                Share Screens
+              </h1>
+              <div>
+                <svg width='0' height='0'>
+                  <linearGradient id='icon-gradient' x1='100%' y1='100%' x2='0%' y2='0%'>
+                    <stop stopColor='#ffcc70' offset='0%' />
+                    <stop stopColor='#c850c0' offset='50%' />
+                    <stop stopColor='#4158d0' offset='100%' />
+                  </linearGradient>
+                </svg>
+              </div>
             </SidebarMenuButton>
             <SidebarMenuAction title='Toggle sidebar' onClick={sidebar.toggleSidebar}>
               <PanelLeft />
