@@ -108,7 +108,7 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter>
-        <SidebarMenuButton asChild className='w-fit'>
+        <SidebarMenuButton tooltip={'GitHub'} asChild className='w-fit'>
           <a href='https://github.com/yuhsak/share-screens' target='_blank'>
             <GitHub />
           </a>
