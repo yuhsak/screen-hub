@@ -10,9 +10,11 @@ import {
   SidebarMenuItem,
   SidebarMenuAction,
   SidebarHeader,
+  SidebarFooter,
   SidebarRail,
   useSidebar,
 } from '@/components/ui/sidebar'
+import { GitHub } from '@/components/icon/github'
 import { useScreensState, useScreensDispatch } from '@/contexts/screens'
 import { useMediaStreamScreen } from '@/hooks/use-media-stream-screen'
 
@@ -105,6 +107,13 @@ export function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
+      <SidebarFooter>
+        <SidebarMenuButton asChild>
+          <a href='https://github.com/yuhsak/share-screens' target='_blank' className='w-fit'>
+            <GitHub />
+          </a>
+        </SidebarMenuButton>
+      </SidebarFooter>
       <SidebarRail />
     </Sidebar>
   )
