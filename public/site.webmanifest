@@ -1,6 +1,6 @@
 {
-  "name": "Share Screens",
-  "short_name": "Screens",
+  "name": "ScreenHub",
+  "short_name": "ScreenHub",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

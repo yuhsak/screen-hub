@@ -48,7 +48,7 @@ export function AppSidebar() {
                 //   WebkitTextFillColor: 'transparent',
                 // }}
               >
-                Share Screens
+                ScreenHub
               </h1>
               <div>
                 <svg width='0' height='0'>
@@ -109,7 +109,7 @@ export function AppSidebar() {
       </SidebarContent>
       <SidebarFooter>
         <SidebarMenuButton tooltip={'GitHub'} asChild className='w-fit'>
-          <a href='https://github.com/yuhsak/share-screens' target='_blank'>
+          <a href='https://github.com/yuhsak/screen-hub' target='_blank'>
             <GitHub />
           </a>
         </SidebarMenuButton>
