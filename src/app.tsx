@@ -11,9 +11,9 @@ export function App() {
         <AppSidebar />
         <SidebarInset>
           <AppContent />
+          <GoogleAnalytics />
         </SidebarInset>
       </SidebarProvider>
-      <GoogleAnalytics />
     </ScreensProvider>
   )
 }
