@@ -24,7 +24,7 @@ export function GA4({ trackingId }: { trackingId: string }) {
       baseScript.remove()
       initScript.remove()
     }
-  }, [])
+  }, [trackingId])
 
   return null
 }
