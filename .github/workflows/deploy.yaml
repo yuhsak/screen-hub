@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      VITE_GA4_TRACKING_ID: G-DZ6LX23C48
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

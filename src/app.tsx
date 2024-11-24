@@ -2,6 +2,7 @@ import { ScreensProvider } from '@/contexts/screens'
 import { SidebarProvider, SidebarInset } from '@/components/ui/sidebar'
 import { AppSidebar } from '@/components/app-sidebar'
 import { AppContent } from '@/components/app-content'
+import { GoogleAnalytics } from '@/components/google-analytics'
 
 export function App() {
   return (
@@ -12,6 +13,7 @@ export function App() {
           <AppContent />
         </SidebarInset>
       </SidebarProvider>
+      <GoogleAnalytics />
     </ScreensProvider>
   )
 }
